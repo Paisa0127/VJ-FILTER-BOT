@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split()
+PICS = (environ.get('PICS', 'https://www.google.com/search?q=chintu+name+animation+photo&client=ms-android-xiaomi-rvo2b&sca_esv=577bb668e7e98e33&udm=2&biw=393&bih=782&sxsrf=AHTn8zohdnxPmV_5ss4Pz5yTIAJYL99TMw%3A1738410042840&ei=OgieZ6-DM-GGvr0Po8iCoA8&oq=chintu+name+animation+photo&gs_lp=EhJtb2JpbGUtZ3dzLXdpei1pbWciG2NoaW50dSBuYW1lIGFuaW1hdGlvbiBwaG90bzIIEAAYgAQYogQyCBAAGIAEGKIESJYSUF1Y9Q9wAngAkAEAmAHQAqAB1wyqAQcwLjMuMy4xuAEDyAEA-AEBmAIJoAKcDcICBBAjGCeYAwCIBgGSBwcyLjMuMy4xoAeZDA&sclient=mobile-gws-wiz-img#imgrc=0ToGuKTBT2o9KM&imgdii=RA3pW-JUeH02fM')).split()
 
 
 # Admins & Users
@@ -56,7 +56,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://himanshuy20033:a3lRIHSyKPPGcLzV@cluster0.f42hc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjbot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "himanshuy20033")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
@@ -87,7 +87,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/chintu_movies1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/chintumovie12')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'chintumovie12') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/kingvj01')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/@Him436')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
